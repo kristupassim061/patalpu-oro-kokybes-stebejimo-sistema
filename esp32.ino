@@ -3,11 +3,11 @@
 #include <DHT.h>
 
 // ===== WIFI NUSTATYMAI =====
-const char* WIFI_SSID = "Pasakos";
-const char* WIFI_PASS = "kosmonautas";
+const char* WIFI_SSID = "Tavo_WIFI pavadinimas";
+const char* WIFI_PASS = "WIFI_SLAPTAZODIS";
 
 // ===== MQTT NUSTATYMAI =====
-const char* MQTT_HOST  = "192.168.1.242";   // TAVO PC IP
+const char* MQTT_HOST  = "IP adresas";   // TAVO PC IP
 const int   MQTT_PORT  = 1883;
 const char* MQTT_TOPIC = "sensors/airjson";
 
